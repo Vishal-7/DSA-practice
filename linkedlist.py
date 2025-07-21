@@ -1,8 +1,8 @@
 class Node:
     '''
-    A class to create a linkedlist node \n
+    Description: A class to create a linkedlist node \n
     input: Pass data value \n
-    output: None returned; object is created and can be accessed
+    output: None returned; object is created and can be accessed \n
     '''
     def __init__(self, data):
         self.data = data # assigns the data to the node
