@@ -1,6 +1,9 @@
 def quicksort(arr, low=0, high=None):
     """
-    Description: 
+    \n Description: Function to sort the array using the concept of quicksort \n
+    \n Input: unsorted array \n
+    \n Output: sorted array \n
+    \n Time Complexity: O(n^2) \n
     """
     if high is None:
         high = len(arr) - 1
